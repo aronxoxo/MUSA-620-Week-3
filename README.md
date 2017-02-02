@@ -25,7 +25,8 @@ R packages:
 Setting up the Selenium Standalone Server (optional):
 - 1. Install Java JDK, following [these intructions for Windows](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html) or [these instructions for OS X](https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html). You can download the latest Java JDK version [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 - 2. Download the latest version of the [Selenium Standalone Server](http://www.seleniumhq.org/download/).
-- 3. If you do not already have it, download the latest version of [Firefox](https://www.mozilla.org/en-US/firefox/products/).
+- 3. If you do not already have it, install the latest version of [Firefox](https://www.mozilla.org/en-US/firefox/products/) (Firefox is the default browser for Selenium).
 - 4. To start the server, open the command line (in Windows press Win+R then type "cmd", in OS X search for "terminal" in Spotlight). Go to the directory where the Selenium Standalone Server file is downloaded and run "java -jar selenium-server-standalone-3.0.1.jar".
+
 
 If you are having problems getting the Selenium Standalone Server working, you can find more [information here](https://cran.r-project.org/web/packages/RSelenium/vignettes/RSelenium-basics.html). You are also welcome to email me with questions. However, this project is not meant to be an exercise in setting up servers, so if you are finding it overwhelming to set up the standalone server, you should just use [Sauce Labs](https://saucelabs.com/), as we did in class.
