@@ -1,7 +1,5 @@
 # MUSA620-Week-3
-Working with Census data ([notes]())
-
-The raw microdata used in the microdata.r script can be downloaded here: [usa_00051.dat](https://drive.google.com/file/d/0B7vEPueW9lKEdEI5c3JDRVE4WjQ/view?usp=sharing).
+Web Scraping ([notes]())
 
 
 # Assignment
