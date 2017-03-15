@@ -1,23 +1,12 @@
-# MUSA620-Week-3
-Web Scraping ([notes](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-3/blob/master/week-3-web-scraping.pptx))
-
-
-# Assignment
-
-This is the first required assignment of the course. You may turn it in by email (galkamaxd at gmail) or in person at class.
-
-**Due:** by the end of class next week, 8-Feb
-
-**Task:** Calculate the price per square foot of condominiums on Rittenhouse Square (the orange buildings below) by scraping the Philadelphia Property Database.
+# Web Scraping - Property Prices in Rittenhouse Square
+This course project is written in Ruby to calculate the average price per square foot of condominiums on Rittenhouse Square (the orange buildings below) by scraping the Philadelphia Property Database.
 
 ![Rittenhouse Square](https://blueshift.io/rittenhouse.png "Rittenhouse Square Condominiums")
 
-**Deliverable:** The average price per square foot based on your calculations. Please also include all R scripts used in scraping and analyzing the data, as well as information about any other tools / applications used outside of R.
+To calculate the average price per square foot for these homes, I scraped the [Philadelphia Property Database](http://property.phila.gov/).
+- The list of condos (address and unit #) to be scraped are in the [rittenhouse-condos.csv](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-3/blob/master/rittenhouse-condos.csv) file.
+- For the purposes of this project, I used the most recent Market Value as the price of the condo, as shown in the "VALUATION HISTORY" table. For the area of the condo, I used the field labeled "IMPROVEMENT AREA (SQFT)".
 
-To calculate the average price per square foot for these homes, you will need to scrape the [Philadelphia Property Database](http://property.phila.gov/).
-- This list of condos (address and unit #) are in the [rittenhouse-condos.csv](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-3/blob/master/rittenhouse-condos.csv) file. See the [assignment-week-3-template.R](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-3/blob/master/assignment-week-3-template.R) script for some code to get you started.
-- For the purposes of this assignment, please use the most recent Market Value as the price of the condo, as shown in the "VALUATION HISTORY" table. For the area of the condo, please use the field labeled "IMPROVEMENT AREA (SQFT)".
-- This assignment may require you to go beyond the examples we covered in class, though the [nyc-real-estate-search.r](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-3/blob/master/nyc-real-estate-search.r) script should include most of the pieces that you need. The documentation for the two R packages we used is below. I also added some additional information about selectors into the [lecture notes](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-3/blob/master/week-3-web-scraping.pptx).
 
 **R packages:**
 - [Selenium documentation](https://cran.r-project.org/web/packages/RSelenium/RSelenium.pdf) - for remotely driving the browser
